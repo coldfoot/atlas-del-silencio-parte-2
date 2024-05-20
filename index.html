@@ -41,43 +41,6 @@
 
     <body>
 
-    <!-- Top menu -->
-    <div class="menu-container">
-        <div class="top-bar">
-            <button class="btn-menu" data-state="burger">
-                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <line x1="20" y1="10" x2="20" y2="30" class="line-vertical"></line>
-                    <line x1="10" y1="20" x2="30" y2="20" class="line-horizontal"></line>
-                </svg>
-            </button>
-            <a href="" class="logo-wrapper">
-                <img src="./imgs/logo-ipys.png" alt="Logo de Ipys">
-            </a>
-
-            <!-- 
-            <nav class="menu hidden">
-                <ul>
-                    <li><a href="./index.html">Atlas del Silencio</a></li>
-                    <li><a href="./paisaje/index.html">Paisaje</a></li>
-                    <li><a href="./relieve/index.html">Relieve</a></li>
-                    <li><a href="./entorno/index.html">Entorno</a></li>
-                    <li><a href="./metodologia/index.html">Metodología</a></li>
-                    <li><a href="./reverdece-el-mapa/index.html">Reverdece el mapa</a></li>
-                    <li><a href="./creditos/index.html">Créditos</a></li>
-                </ul>
-            </nav> -->
-
-        </div>
-
-        <div class="secondary-fixed-menu hidden" id="secondary-fixed-menu">
-            <a href="#section-amazonas" class="secondary-fixed-menu-division amazonas"><p>Amazonas</p></a>
-            <a href="#section-yaracuy" class="secondary-fixed-menu-division yaracuy"><p>Yaracuy</p></a>
-            <a href="#section-tachira" class="secondary-fixed-menu-division tachira"><p>Táchira</p></a>
-            <a href="#section-sucre" class="secondary-fixed-menu-division sucre"><p>Sucre</p></a>
-        </div>
-
-    </div>
-
     <!-- Shortcut to map -->
     <div class="fixed-sidebar">
         <div class="fixed-text">
@@ -93,401 +56,139 @@
     <!-- Main content container -->
     <div class="main-content">
         
-        <!-- Intro - Oasis -->
-        <div class="scrollama" id="no-menu">
+
+
+        <!-- Intro - Link to map -->
         <section class="intro">
-
-            <div class="section-opener oasis">
-                <div class="container">
-                    <img src="./imgs/paisaje.png">
-                    <h1 class="section-title">Oasis</h1>
+            <div class="big-opener-container">
+                <div class="menu-container big-opener">
+                    <img src="./imgs/logo-ipys.png" class="logo">
                 </div>
-            </div>
-
-            <div class="text-container">
-                <p><b>Los oasis permiten que emerja vida.</b></p>
-                <p>La ciencia explica que estos acuíferos provienen del subsuelo. Algunos son milenarios; han estado hundidos bajo la arena desde épocas en las que en esas tierras caían aguaceros. Otros, dicen, son posibles gracias a que en los breves períodos de lluvia el agua se filtra y encuentra espacio en las profundidades. En ambos casos, producto de complejos procesos geológicos, esa agua vuelve a la superficie formando pequeñas lagunas, a partir de lo cual todo alrededor comienza a reverdecer.</p>
-                <p>Este fenómeno es una metáfora de las siguientes historias: en zonas de Venezuela que son desiertos de noticias han surgido oasis informativos. Como el agua de otros tiempos que regresa a la superficie, periodistas buscan sortear limitaciones creando iniciativas que les permitan ejercer su oficio.</p>
-                <p><b>A pesar de tanta aridez.</b></p>
-                <p>Seguramente hay más, estas cuatro son solo una muestra.</p>
-
-                <p class="author"><b><i>Erick Lezama</i></b></p>
-            </div>
-
-            <div class="section-menu" id="big-menu">
-                <a href="#section-amazonas" class="section-menu-subdivision amazonas">
-                    <div class="menu-text">
-                        <h2 class="section-menu-title"><span>La referencia del sur</span></h2>
-                        <h3 class="section-menu-title">Radar informativo</h3>
-                        <h4 class="section-menu-title">Amazonas</h4>
-                    </div>
-
-                    <img src="./imgs/amazonas-transp.png" class="amazonas">
-                    <div class="chevron-container">
-                        <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <path d="M6 9L12 15L18 9"/>                        </svg>
-                    </div>
-                </a>
-                <a href="#section-yaracuy" class="section-menu-subdivision yaracuy">
-                    <div class="menu-text">
-                        <h2 class="section-menu-title"><span>Periodismo sobre dos ruedas</span></h2>
-                        <h3 class="section-menu-title">Ricardo Tarazona</h3>
-                        <h4 class="section-menu-title">Yaracuy</h4>
-                    </div>
-                    <img src="./imgs/yaracuy-transp.png" class="yaracuy">
-                    <div class="chevron-container">
-                        <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <path d="M6 9L12 15L18 9"/>                        </svg>
-                    </div>
-                </a>
-                <a href="#section-tachira" class="section-menu-subdivision tachira">
-                    <div class="menu-text">
-                        <h2 class="section-menu-title"><span>Que el centro sean las noticias</span></h2>
-                        <h3 class="section-menu-title">Centro de noticias del Táchira</h3>
-                        <h4 class="section-menu-title">Táchira</h4>         
-                    </div>
-                    <img src="./imgs/tachira-transp.png" class="tachira">
-                    <div class="chevron-container">
-                        <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <path d="M6 9L12 15L18 9"/>                        </svg>
-                    </div>
-                </a>
-                <a href="#section-sucre" class="section-menu-subdivision sucre">
-                    <div class="menu-text">
-                        <h2 class="section-menu-title"><span>Una red lanzada al mar</span></h2>
-                        <h3 class="section-menu-title">Atarraya Digital </h3>
-                        <h4 class="section-menu-title">Sucre</h4>        
-                    </div>
-                    <img src="./imgs/sucre-transp.png" class="sucre">
-                    <div class="chevron-container">
-                        <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <path d="M6 9L12 15L18 9"/>                        </svg>
-                    </div>
-                </a>
-            </div>
-        </section>
-        </div>
-
-
-        <div class="scrollama" id="show-menu">
-        <!-- Stories – Amazonas -->
-        <section class="stories amazonas" id="section-amazonas">
-
-            <div class="text-container" id="first-story">
-                <h2 class="hat">Radar Informativo</h2>
-                <h3 class="hat">Amazonas</h3>
-                <h1 class="title">La referencia del sur</h1>
-                <p class="subhead">Dos periodistas imaginaron un programa de radio, independiente, para informar lo que ocurre en Amazonas. Desde 2018, han articulado un equipo de 13 colaboradores, y aspiran que la iniciativa, más que un espacio radiofónico, sea una organización sostenible que brinde formación a periodistas y a ciudadanos. Carolina Azavache, una de las fundadoras, cuenta parte del recorrido.</p>
-
-                <div class="big-opener-container">
-                    <img src="imgs/amazonas-abre.jpeg" class="big-opener">   
-                    <p class="img-legend">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                </div>
-
-                <div class="two-columns">
-
-                    <div class="text-column">
-                        <p><b>TODO COMENZÓ GRACIAS A UNA AMIGA.</b> Ella tenía un noticiario en Marawaka, una emisora de radio local, y lo hacía prácticamente sola. Estaba a cargo de las coberturas, de la producción y de la narración al aire de las informaciones. Además, como por si fuera poco, debía cumplir con otras tareas administrativas dentro de ese medio. Se sentía exhausta. Un día, fui a visitarla junto a Kisme Baristo, otro colega, y, en el porche de su casa, nos dijo que necesitaba ayuda:</p>
-
-                        <p>“¿Por qué no se encargan ustedes del noticiero?”, nos preguntó.</p>
-
-                        <p>No me esperaba semejante propuesta, pero no me resultó descabellada. Porque Kisme y yo llevamos años cubriendo lo que ocurre en Amazonas, en el extremo sur de Venezuela, y nos llamó la atención tener un espacio propio para difundir lo que hasta entonces reporteábamos para distintos medios y a través de nuestras propias redes sociales.</p>
-
-                    </div>
-
-                    <div class="map-box amazonas">
-                        <img src="./imgs/amazonas-mapa.png" class="map">
-                        <h2 class="hat">Amazonas</h2>
-                        <p>Esta iniciativa periodística se mantiene en un estado en el cual, de acuerdo con esta investigación, <b>6 de los 7 municipios que lo componen son desiertos de noticias</b>. Solo no lo es Atures, en el extremos norte de la localidad, en la frontera con Bolívar y Apure.</p>
-                    </div>
-
-                </div>
-
-                <p>Ese mismo día, sin darnos cuenta, comenzamos a imaginarnos al frente de un programa donde pudiéramos hacer eso que nos apasiona: informar. Eso sí, con libertad e independencia, como creemos que debe hacerse el buen periodismo.</p>
-
-                <p>Kisme y yo mantuvimos largas y fructíferas conversaciones que nos permitieron ir madurando el proyecto. Cuando lo tuvimos más claro, redactamos un documento con los principales planteamientos, y mi amiga se lo presentó a su jefe, a quien le encantó que nosotros hiciéramos el noticiero. Como productores nacionales independientes, nos alquiló un espacio en la grilla de contenidos, de 6:00 a 7:30 de la mañana. Lo pagábamos con nuestro propio dinero. Era una apuesta, ni más ni menos: queríamos hacer las cosas bien y, con el tiempo, poder tener anunciantes que nos permitieran ser sostenibles.</p>
-
-                <p>Así arrancamos este proyecto que, al principio, llamamos “Radar informativo”. Salimos al aire por primera vez el 26 de agosto de 2019. Éramos 4 personas: Kisme y yo en cabina; dos colegas que nos acompañaban en la producción, y luego se sumaron quienes hoy por hoy son el equipo de redacción, Kisme lleva la gestión de redes sociales, en las que también informábamos lo que transmitíamos al aire.</p>
-
-                <p class="highlight amazonas">Era una apuesta, ni más ni menos: queríamos hacer las cosas bien y, con el tiempo, poder tener anunciantes que nos permitieran ser sostenibles.</p>
-
-                <p>Nos iba bien. Pero en Puerto Ayacucho hay muchos problemas de transporte. Circulan pocos buses y escasea el combustible. Para llegar temprano a la radio, teníamos que pagar mototaxis de nuestro bolsillo. Después vino un desafío más grande: aparecieron diferencias editoriales con el director de la radio, porque, al parecer, no entendía que el espacio no le pertenecía, que el nuestro no era un proyecto de la emisora, sino un espacio independiente. Por todo ello, acordamos hacer un ajuste en el horario y mudarnos de dial.</p>
-            
-                <p>Hicimos la propuesta en la emisora Raudal Estéreo, que forma parte del Vicariato apostólico de Puerto Ayacucho y pertenece a Fe y Alegría. Allí ya tenían un espacio informativo en la mañana, por lo cual solicitamos que nos ubicaran más bien en la tarde, a las 5:00, como productores independientes. Luego de varias reuniones, llenas de cordialidad, nos admitieron.</p>
-            
-                <p>Arrancamos con el programa de 5:00 a 6:30 de la tarde.</p>
-
-                <div class="container-regular-img">
-                    <img src="./imgs/sample.jpg" class="regular-img">
-                    <p class="img-legend">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                </div>
-
-                <p>Cuando sentíamos que el viento por fin estaba a nuestro favor, todo cambió. Para nosotros y para el mundo. En marzo de 2020 decretaron la pandemia de covid-19. Ante esa circunstancia, se nos hacía difícil mantener el ritmo que habíamos mantenido. No podíamos salir al aire a las 5:00 de la tarde porque no teníamos transporte para volver a nuestras casas, y porque había muchas restricciones de movilidad por el confinamiento. Por ello, volvimos a cambiar de horario. Ahora iríamos al aire de 3:00 a 4:30 de la tarde. Y aprovechamos para modificar nuestra identidad: pasamos de llamarnos Radar Informativo a Radar de Amazonas, que es como ya nos estaban conociendo dentro y fuera del estado.</p>
-
-                <p>Cuando Kisme tenía su vehículo en buen estado, me pasaba buscando. Cuando no, caminaba tres o cuatro cuadras, y llegaba hasta un puesto de bomberos o policías a quienes les pedía que me ayudaran a llegar. Así, gracias a bomberos o policías, podíamos transmitir lo que estaba ocurriendo. No podíamos parar porque en momentos como esos –convulsos, de incertidumbre– la sociedad necesita información. En Amazonas la gente se nutre de la radio. La única restricción era que hacíamos las entrevistas vía telefónica, y en cabina solo estábamos Kisme (que además hacía de operador) y yo.</p>
-            
-                <p class="highlight">No podíamos parar porque en momentos como esos –convulsos, de incertidumbre– la sociedad necesita información.</p>
-            
-                <p>Actualmente, somos un equipo de 13 personas, 6 de las cuales tenemos la mayor responsabilidad del programa. Los demás son colaboradores y voluntarios: hay periodistas deportivos, otros que abordan el tema medioambiental, unos cuantos que cubren sucesos. Rentamos una oficina, que pagamos con los ingresos de nuestros otros trabajos. Allí funciona nuestra sala de redacción. Hay editores, audiovisualistas, diseñadores. La pauta la va marcando la dinámica noticiosa del día o de la semana. Nos interesa llevar información periodística de distintos temas: Derechos Humanos, comunidad, salud, política, economía, mujeres, comunidades indígenas.
-                </p>
-
-                <p>Para sacar adelante este proyecto, todos tenemos otros trabajos: algunos forman parte de la administración pública, otros colaboran con distintos medios, y otros trabajan con organizaciones de la sociedad civil. Tenemos gente que forma parte de Una Ventana a la Libertad, Ipys-Venezuela, Griam, Kapé Kapé, el Observatorio Venezolano de Violencia. Esto creo que es bueno...</p>
-
-                <div class="box-profile amazonas">
-                    <p><b>CAROLINA AZAVACHE</b> nació en Amazonas y es descendiente del pueblo indígena Baré. Se formó como periodista. A lo largo de su carrera ha cubierto diferentes fuentes informativas. Actualmente, trabaja como investigadora para distintas organizaciones sociales. Es cofundadora, junto a otros periodistas, de Radar de Amazonas.</p>
-                </div>
-
             </div>
 
         </section>
-        
-        <!-- Stories – Yaracuy -->
-        <section class="stories yaracuy" id="section-yaracuy">
 
-            <div class="text-container">
-                <h2 class="hat">Ricardo Tarazona</h2>
-                <h3 class="hat">Yaracuy</h3>
-                <h1 class="title">Periodismo sobre dos ruedas</h1>
-                <p class="subhead">El reportero Ricardo Tarazona comenzó a visitar comunidades aisladas de Yaracuy para comunicar, en sus propias redes sociales, las realidades sobre las que las autoridades no informaban. Lo hacía en bicicleta porque no tenía cómo trasladarse. Esto es parte de lo que ha vivido.
-                </p>
+        <!-- Links -->
+        <section class="story-links">
+            <div class="menu-container second">
+                <img src="./imgs/logo-ipys.png" class="logo">
+            </div>
+            
+            <div class="story-link-outer">
+                <div class="story-link-container">
 
-                <div class="big-opener-container">
-                    <img src="imgs/yaracuy-abre.jpeg" class="big-opener">   
-                    <p class="img-legend">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="text-elements">
+                        <h3 class="hat"><span class='rounded-borders'>Paisaje</span></h3>
+                        <h1 class="title">Quais são as características dos desertos de notícia na Venzuela?</h1>
+                        <h2 class="sub">Son, en total, 15 millones de personas que no pueden informarse suficientemente bien sobre asuntos de interés inmediato para su comunidad. Pero por qué?</h2>    
+                    </div>
+                    
+                    <div class="logo-holder">
+                        <img class="logo" src="./imgs/paisaje.png">
+                    </div>
+                </div>
+                <hr class="divider"></hr>
+
+            </div>
+
+            <div class="story-link-outer">
+                <div class="story-link-container">
+
+                    <div class="text-elements">
+                        <h3 class="hat"><span class='rounded-borders'>Paisaje</span></h3>
+                        <h1 class="title">Quais são as características dos desertos de notícia na Venzuela?</h1>
+                        <h2 class="sub">Son, en total, 15 millones de personas que no pueden informarse suficientemente bien sobre asuntos de interés inmediato para su comunidad. Pero por qué?</h2>    
+                    </div>
+                    
+                    <div class="logo-holder">
+                        <img class="logo" src="./imgs/paisaje.png">
+                    </div>
+                </div>
+                <hr class="divider"></hr>
+
+            </div>
+            
+            <div class="story-link-outer">
+                <div class="story-link-container">
+
+                    <div class="text-elements">
+                        <h3 class="hat"><span class='rounded-borders'>Paisaje</span></h3>
+                        <h1 class="title">Quais são as características dos desertos de notícia na Venzuela?</h1>
+                        <h2 class="sub">Son, en total, 15 millones de personas que no pueden informarse suficientemente bien sobre asuntos de interés inmediato para su comunidad. Pero por qué?</h2>    
+                    </div>
+                    
+                    <div class="logo-holder">
+                        <img class="logo" src="./imgs/paisaje.png">
+                    </div>
                 </div>
 
-                <div class="two-columns">
+            </div>
+        </section>
 
-                    <div class="text-column">
-                        <p><b>TODO COMENZÓ GRACIAS A UNA AMIGA.</b> Ella tenía un noticiario en Marawaka, una emisora de radio local, y lo hacía prácticamente sola. Estaba a cargo de las coberturas, de la producción y de la narración al aire de las informaciones. Además, como por si fuera poco, debía cumplir con otras tareas administrativas dentro de ese medio. Se sentía exhausta. Un día, fui a visitarla junto a Kisme Baristo, otro colega, y, en el porche de su casa, nos dijo que necesitaba ayuda:</p>
-
-                        <p>“¿Por qué no se encargan ustedes del noticiero?”, nos preguntó.</p>
-
-                        <p>No me esperaba semejante propuesta, pero no me resultó descabellada. Porque Kisme y yo llevamos años cubriendo lo que ocurre en Amazonas, en el extremo sur de Venezuela, y nos llamó la atención tener un espacio propio para difundir lo que hasta entonces reporteábamos para distintos medios y a través de nuestras propias redes sociales.</p>
-
-                    </div>
-
-                    <div class="map-box yaracuy">
-                        <img src="./imgs/yaracuy-mapa.png" class="map">
-                        <h2 class="hat">Yaracuy</h2>
-                        <p>Esta iniciativa periodística se mantiene en un estado en el cual, de acuerdo con esta investigación, <b>6 de los 7 municipios que lo componen son desiertos de noticias</b>. Solo no lo es Atures, en el extremos norte de la localidad, en la frontera con Bolívar y Apure.</p>
-                    </div>
-
+        <!-- Metodologia -->
+        <section class="metodologia">
+            <div class="block metodologia">
+                <div class="block-container metodologia">
+                    <h1>Metodologia</h1>
+                    <p>El estudio Atlas del silencio analizó el acceso a información local con cobertura diaria en Venezuela, mediante la aplicación de una encuesta digital dirigida a trabajadores de medios de comunicación en los 24 estados del país.</p>
+                    <a href=""><span class='rounded-borders metodologia'>Sepa más</span></a>
                 </div>
+            </div>
+        </section>
 
-                <p>Ese mismo día, sin darnos cuenta, comenzamos a imaginarnos al frente de un programa donde pudiéramos hacer eso que nos apasiona: informar. Eso sí, con libertad e independencia, como creemos que debe hacerse el buen periodismo.</p>
+        <!-- Reverdece el mapa -->
+        <section class="reverdece">
+            <div class="block reverdece">
+                <div class="block-container reverdece">
+                    <h1>Reverdece el mapa</h1>
+                    <p>Ayuda a IPYS Venezuela a mapear los medios de comunicación en Venezuela que cubren los 335 municipios del país para ampliar nuestra base de datos de periodismo local.</p>
+                    <p>El estudio Atlas del silencio necesita la ayuda de periodistas, ciudadanos, medios y organizaciones para construir una fotografía representativa del periodismo venezolano. Estos datos servirán para el desarrollo de estudios, investigaciones, análisis y estrategias orientadas a dar soluciones que busquen promover el acceso a información local en todas las comunidades de Venezuela.</p>
+                    <a href=""><span class='rounded-borders reverdece'>Formulario</span></a>
+                </div>
+            </div>
+        </section>
 
-                <p>Así arrancamos este proyecto que, al principio, llamamos “Radar informativo”. Salimos al aire por primera vez el 26 de agosto de 2019. Éramos 4 personas: Kisme y yo en cabina; dos colegas que nos acompañaban en la producción, y luego se sumaron quienes hoy por hoy son el equipo de redacción, Kisme lleva la gestión de redes sociales, en las que también informábamos lo que transmitíamos al aire.</p>
-
+        <!-- Creditos -->
+        <section class="creditos">
+            <div class="block creditos">
+                <div class="block-container creditos">
+                    <p class="category">Dirección ejecutiva del IPYS Venezuela</p>
+                    <p class="people">Marianela Balbi</p>
+    
+                    <p class="category">Coordinación general del proyecto</p>
+                    <p class="people">Daniela Alvarado Mejias</p>
+    
+                    <p class="category">Consultoría estadística del proyecto</p>
+                    <p class="people">Carlos Medina y Bárbara Sosa</p>
+    
+                    <p class="category">Coordinación del trabajo de campo</p>
+                    <p class="people">Daniela Alvarado Mejias, Erick Lezama y Mariano Puigvert</p>
+    
+                    <p class="category">Investigación</p>
+                    <p class="people">Carolina Azavache y Odalys Aponte (Amazonas); Giovanna Pellicani y Marinelid Marcano (Anzoátegui); María Eugenia Díaz (Apure), Gregoria Díaz y Laudelyn Sequera (Aragua); Wolman Linares y Briceida Morales (Barinas); Jhoalys Siverio y Gladylis Flores (Bolívar); Dayrí Blanco y César Heredia (Carabobo); Alexander Olvera y Xiomara Casadiego (Cojedes); Amador Medina y Abner Ramos (Delta Amacuro); Raylí Luján, Dayana Krays y Sikiuk Méndez (Distrito Capital); Irene Revilla y Jhonathan Petit (Falcón); Jorge González y José David Rondón (Guárico); Keren Torres y Karina Peraza (Lara); María Fernanda Rodríguez y Enmanuel Rivas (Mérida); Génesis Carrero, María Jesús Vallejo Martins, Rosanna Batistteli y Lidk Rodell (Miranda); Jesymar Añez y Ronny Rodríguez (Monagas), Ana Carolina Arias y Gustavo Novoa (Nueva Esparta); Bianile Rivas y María Antonieta Dávila (Portuguesa), Nairobys Rodríguez y Angélica Ropero Aguilera (Sucre), Lorena Arráiz y Zulma López (Táchira); José Ocanto y Yuliana Palmar (Trujillo), Nadeska Noriega y Cruz Alejandro Sojo (Vargas); Ricardo Tarazona y Rosangel Navas Martínez (Yaracuy); Johanny Pernía y Siloham Troconis (Zulia)</p>
                 
-                <p class="highlight yaracuy">Era una apuesta, ni más ni menos: queríamos hacer las cosas bien y, con el tiempo, poder tener anunciantes que nos permitieran ser sostenibles.</p>
-
-                <p>Nos iba bien. Pero en Puerto Ayacucho hay muchos problemas de transporte. Circulan pocos buses y escasea el combustible. Para llegar temprano a la radio, teníamos que pagar mototaxis de nuestro bolsillo. Después vino un desafío más grande: aparecieron diferencias editoriales con el director de la radio, porque, al parecer, no entendía que el espacio no le pertenecía, que el nuestro no era un proyecto de la emisora, sino un espacio independiente. Por todo ello, acordamos hacer un ajuste en el horario y mudarnos de dial.</p>
-            
-                <p>Hicimos la propuesta en la emisora Raudal Estéreo, que forma parte del Vicariato apostólico de Puerto Ayacucho y pertenece a Fe y Alegría. Allí ya tenían un espacio informativo en la mañana, por lo cual solicitamos que nos ubicaran más bien en la tarde, a las 5:00, como productores independientes. Luego de varias reuniones, llenas de cordialidad, nos admitieron.</p>
-            
-                <p>Arrancamos con el programa de 5:00 a 6:30 de la tarde.</p>
-
-                <div class="container-regular-img">
-                    <img src="./imgs/sample.jpg" class="regular-img">
-                    <p class="img-legend">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                </div>
-
-                <p>Cuando sentíamos que el viento por fin estaba a nuestro favor, todo cambió. Para nosotros y para el mundo. En marzo de 2020 decretaron la pandemia de covid-19. Ante esa circunstancia, se nos hacía difícil mantener el ritmo que habíamos mantenido. No podíamos salir al aire a las 5:00 de la tarde porque no teníamos transporte para volver a nuestras casas, y porque había muchas restricciones de movilidad por el confinamiento. Por ello, volvimos a cambiar de horario. Ahora iríamos al aire de 3:00 a 4:30 de la tarde. Y aprovechamos para modificar nuestra identidad: pasamos de llamarnos Radar Informativo a Radar de Amazonas, que es como ya nos estaban conociendo dentro y fuera del estado.</p>
-
-                <p>Cuando Kisme tenía su vehículo en buen estado, me pasaba buscando. Cuando no, caminaba tres o cuatro cuadras, y llegaba hasta un puesto de bomberos o policías a quienes les pedía que me ayudaran a llegar. Así, gracias a bomberos o policías, podíamos transmitir lo que estaba ocurriendo. No podíamos parar porque en momentos como esos –convulsos, de incertidumbre– la sociedad necesita información. En Amazonas la gente se nutre de la radio. La única restricción era que hacíamos las entrevistas vía telefónica, y en cabina solo estábamos Kisme (que además hacía de operador) y yo.</p>
-            
-                <p class="highlight">No podíamos parar porque en momentos como esos –convulsos, de incertidumbre– la sociedad necesita información.</p>
-            
-                <p>Actualmente, somos un equipo de 13 personas, 6 de las cuales tenemos la mayor responsabilidad del programa. Los demás son colaboradores y voluntarios: hay periodistas deportivos, otros que abordan el tema medioambiental, unos cuantos que cubren sucesos. Rentamos una oficina, que pagamos con los ingresos de nuestros otros trabajos. Allí funciona nuestra sala de redacción. Hay editores, audiovisualistas, diseñadores. La pauta la va marcando la dinámica noticiosa del día o de la semana. Nos interesa llevar información periodística de distintos temas: Derechos Humanos, comunidad, salud, política, economía, mujeres, comunidades indígenas.
-                </p>
-
-                <p>Para sacar adelante este proyecto, todos tenemos otros trabajos: algunos forman parte de la administración pública, otros colaboran con distintos medios, y otros trabajan con organizaciones de la sociedad civil. Tenemos gente que forma parte de Una Ventana a la Libertad, Ipys-Venezuela, Griam, Kapé Kapé, el Observatorio Venezolano de Violencia. Esto creo que es bueno...</p>
-
-                <div class="box-profile yaracuy">
-                    <p><b>CAROLINA AZAVACHE</b> nació en Amazonas y es descendiente del pueblo indígena Baré. Se formó como periodista. A lo largo de su carrera ha cubierto diferentes fuentes informativas. Actualmente, trabaja como investigadora para distintas organizaciones sociales. Es cofundadora, junto a otros periodistas, de Radar de Amazonas.</p>
+                    <p class="category">Asesoría de comunicación estratégica</p>
+                    <p class="people">Claudia Machi</p>
+    
+                    <p class="category">Análisis de datos y redacción de textos</p>
+                    <p class="people">Daniela Alvarado Mejias, Erick Lezama y Mariano Puigvert</p>
+    
+                    <p class="category">Programación, diseño, narrativa y visualización de datos</p>
+                    <p class="people">Gabriel Hoewell, Judite Cypreste, Rodrigo Menegat, Vallery Nascimento y Tiago Maranhao</p>
+    
+                    <p class="category">Planificación y Gestión de Proyectos del IPYS Venezuela</p>
+                    <p class="people">Carolina Carrera</p>
+    
+                    <p class="category">Coordinación de comunicaciones</p>
+                    <p class="people">Aura García</p>
+    
+                    <p class="category">Campañas y redes sociales</p>
+                    <p class="people">Aura García, Carlos Carreño, Kira Al Assad y Gabriela Alvarado</p>
+    
                 </div>
 
             </div>
-
         </section>
 
-        <!-- Stories – Tachira -->
-        <section class="stories tachira" id="section-tachira">
-
-            <div class="text-container">
-                <h2 class="hat">Centro de Notícias Táchira</h2>
-                <h3 class="hat">Táchira</h3>
-                <h1 class="title">Que el centro sea la información 
-                </h1>
-                <p class="subhead">Un grupo de periodistas de Táchira, que habían hecho carrera en medios tradicionales, crearon un canal de YouTube para informar. Mariana Duque, una de sus integrantes, cuenta por qué se mantienen en esta labor, aunque el camino se mantenga tan lleno de baches. 
-                </p>
-
-                <div class="big-opener-container">
-                    <img src="imgs/sample.jpg" class="big-opener">   
-                </div>
-
-                <div class="two-columns">
-
-                    <div class="text-column">
-                        <p><b>TODO COMENZÓ GRACIAS A UNA AMIGA.</b> Ella tenía un noticiario en Marawaka, una emisora de radio local, y lo hacía prácticamente sola. Estaba a cargo de las coberturas, de la producción y de la narración al aire de las informaciones. Además, como por si fuera poco, debía cumplir con otras tareas administrativas dentro de ese medio. Se sentía exhausta. Un día, fui a visitarla junto a Kisme Baristo, otro colega, y, en el porche de su casa, nos dijo que necesitaba ayuda:</p>
-
-                        <p>“¿Por qué no se encargan ustedes del noticiero?”, nos preguntó.</p>
-
-                        <p>No me esperaba semejante propuesta, pero no me resultó descabellada. Porque Kisme y yo llevamos años cubriendo lo que ocurre en Amazonas, en el extremo sur de Venezuela, y nos llamó la atención tener un espacio propio para difundir lo que hasta entonces reporteábamos para distintos medios y a través de nuestras propias redes sociales.</p>
-
-                    </div>
-
-                    <div class="map-box tachira">
-                        <img src="./imgs/tachira-mapa.png" class="map">
-                        <h2 class="hat">Táchira</h2>
-                        <p>Esta iniciativa periodística se mantiene en un estado en el cual, de acuerdo con esta investigación, <b>6 de los 7 municipios que lo componen son desiertos de noticias</b>. Solo no lo es Atures, en el extremos norte de la localidad, en la frontera con Bolívar y Apure.</p>
-                    </div>
-
-                </div>
-
-                <p>Ese mismo día, sin darnos cuenta, comenzamos a imaginarnos al frente de un programa donde pudiéramos hacer eso que nos apasiona: informar. Eso sí, con libertad e independencia, como creemos que debe hacerse el buen periodismo.</p>
-
-                <p>Así arrancamos este proyecto que, al principio, llamamos “Radar informativo”. Salimos al aire por primera vez el 26 de agosto de 2019. Éramos 4 personas: Kisme y yo en cabina; dos colegas que nos acompañaban en la producción, y luego se sumaron quienes hoy por hoy son el equipo de redacción, Kisme lleva la gestión de redes sociales, en las que también informábamos lo que transmitíamos al aire.</p>
-
-                
-                <p class="highlight tachira">Era una apuesta, ni más ni menos: queríamos hacer las cosas bien y, con el tiempo, poder tener anunciantes que nos permitieran ser sostenibles.</p>
-
-                <p>Nos iba bien. Pero en Puerto Ayacucho hay muchos problemas de transporte. Circulan pocos buses y escasea el combustible. Para llegar temprano a la radio, teníamos que pagar mototaxis de nuestro bolsillo. Después vino un desafío más grande: aparecieron diferencias editoriales con el director de la radio, porque, al parecer, no entendía que el espacio no le pertenecía, que el nuestro no era un proyecto de la emisora, sino un espacio independiente. Por todo ello, acordamos hacer un ajuste en el horario y mudarnos de dial.</p>
-            
-                <p>Hicimos la propuesta en la emisora Raudal Estéreo, que forma parte del Vicariato apostólico de Puerto Ayacucho y pertenece a Fe y Alegría. Allí ya tenían un espacio informativo en la mañana, por lo cual solicitamos que nos ubicaran más bien en la tarde, a las 5:00, como productores independientes. Luego de varias reuniones, llenas de cordialidad, nos admitieron.</p>
-            
-                <p>Arrancamos con el programa de 5:00 a 6:30 de la tarde.</p>
-
-                <div class="container-regular-img">
-                    <img src="./imgs/sample.jpg" class="regular-img">
-                    <p class="img-legend">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                </div>
-
-                <p>Cuando sentíamos que el viento por fin estaba a nuestro favor, todo cambió. Para nosotros y para el mundo. En marzo de 2020 decretaron la pandemia de covid-19. Ante esa circunstancia, se nos hacía difícil mantener el ritmo que habíamos mantenido. No podíamos salir al aire a las 5:00 de la tarde porque no teníamos transporte para volver a nuestras casas, y porque había muchas restricciones de movilidad por el confinamiento. Por ello, volvimos a cambiar de horario. Ahora iríamos al aire de 3:00 a 4:30 de la tarde. Y aprovechamos para modificar nuestra identidad: pasamos de llamarnos Radar Informativo a Radar de Amazonas, que es como ya nos estaban conociendo dentro y fuera del estado.</p>
-
-                <p>Cuando Kisme tenía su vehículo en buen estado, me pasaba buscando. Cuando no, caminaba tres o cuatro cuadras, y llegaba hasta un puesto de bomberos o policías a quienes les pedía que me ayudaran a llegar. Así, gracias a bomberos o policías, podíamos transmitir lo que estaba ocurriendo. No podíamos parar porque en momentos como esos –convulsos, de incertidumbre– la sociedad necesita información. En Amazonas la gente se nutre de la radio. La única restricción era que hacíamos las entrevistas vía telefónica, y en cabina solo estábamos Kisme (que además hacía de operador) y yo.</p>
-            
-                <p class="highlight">No podíamos parar porque en momentos como esos –convulsos, de incertidumbre– la sociedad necesita información.</p>
-            
-                <p>Actualmente, somos un equipo de 13 personas, 6 de las cuales tenemos la mayor responsabilidad del programa. Los demás son colaboradores y voluntarios: hay periodistas deportivos, otros que abordan el tema medioambiental, unos cuantos que cubren sucesos. Rentamos una oficina, que pagamos con los ingresos de nuestros otros trabajos. Allí funciona nuestra sala de redacción. Hay editores, audiovisualistas, diseñadores. La pauta la va marcando la dinámica noticiosa del día o de la semana. Nos interesa llevar información periodística de distintos temas: Derechos Humanos, comunidad, salud, política, economía, mujeres, comunidades indígenas.
-                </p>
-
-                <p>Para sacar adelante este proyecto, todos tenemos otros trabajos: algunos forman parte de la administración pública, otros colaboran con distintos medios, y otros trabajan con organizaciones de la sociedad civil. Tenemos gente que forma parte de Una Ventana a la Libertad, Ipys-Venezuela, Griam, Kapé Kapé, el Observatorio Venezolano de Violencia. Esto creo que es bueno...</p>
-
-                <div class="box-profile tachira">
-                    <p><b>CAROLINA AZAVACHE</b> nació en Amazonas y es descendiente del pueblo indígena Baré. Se formó como periodista. A lo largo de su carrera ha cubierto diferentes fuentes informativas. Actualmente, trabaja como investigadora para distintas organizaciones sociales. Es cofundadora, junto a otros periodistas, de Radar de Amazonas.</p>
-                </div>
-
-            </div>
-
-        </section>
-
-        <!-- Stories – Sucre -->
-        <section class="stories sucre" id="section-sucre">
-
-            <div class="text-container">
-                <h2 class="hat">Atarraya</h2>
-                <h3 class="hat">Sucre</h3>
-                <h1 class="title">Una red lanzada al mar
-                </h1>
-                <p class="subhead">A cuatros estudiantes de comunicación social se les ocurrió fundar un medio, en Instagram, luego de que Región, el principal periódico del estado, cerró ante las dificultades para obtener los insumos que le permitieran mantenerse operativo. Andrea Fabbiani fue una de ellos.
-                </p>
-
-                <div class="big-opener-container">
-                    <img src="imgs/sample.jpg" class="big-opener">   
-                </div>
-
-                <div class="two-columns">
-
-                    <div class="text-column">
-                        <p><b>TODO COMENZÓ GRACIAS A UNA AMIGA.</b> Ella tenía un noticiario en Marawaka, una emisora de radio local, y lo hacía prácticamente sola. Estaba a cargo de las coberturas, de la producción y de la narración al aire de las informaciones. Además, como por si fuera poco, debía cumplir con otras tareas administrativas dentro de ese medio. Se sentía exhausta. Un día, fui a visitarla junto a Kisme Baristo, otro colega, y, en el porche de su casa, nos dijo que necesitaba ayuda:</p>
-
-                        <p>“¿Por qué no se encargan ustedes del noticiero?”, nos preguntó.</p>
-
-                        <p>No me esperaba semejante propuesta, pero no me resultó descabellada. Porque Kisme y yo llevamos años cubriendo lo que ocurre en Amazonas, en el extremo sur de Venezuela, y nos llamó la atención tener un espacio propio para difundir lo que hasta entonces reporteábamos para distintos medios y a través de nuestras propias redes sociales.</p>
-
-                    </div>
-
-                    <div class="map-box sucre">
-                        <img src="./imgs/sucre-mapa.png" class="map">
-                        <h2 class="hat">Sucre</h2>
-                        <p>Esta iniciativa periodística se mantiene en un estado en el cual, de acuerdo con esta investigación, <b>6 de los 7 municipios que lo componen son desiertos de noticias</b>. Solo no lo es Atures, en el extremos norte de la localidad, en la frontera con Bolívar y Apure.</p>
-                    </div>
-
-                </div>
-
-                <p>Ese mismo día, sin darnos cuenta, comenzamos a imaginarnos al frente de un programa donde pudiéramos hacer eso que nos apasiona: informar. Eso sí, con libertad e independencia, como creemos que debe hacerse el buen periodismo.</p>
-
-                <p>Así arrancamos este proyecto que, al principio, llamamos “Radar informativo”. Salimos al aire por primera vez el 26 de agosto de 2019. Éramos 4 personas: Kisme y yo en cabina; dos colegas que nos acompañaban en la producción, y luego se sumaron quienes hoy por hoy son el equipo de redacción, Kisme lleva la gestión de redes sociales, en las que también informábamos lo que transmitíamos al aire.</p>
-
-                
-                <p class="highlight sucre">Era una apuesta, ni más ni menos: queríamos hacer las cosas bien y, con el tiempo, poder tener anunciantes que nos permitieran ser sostenibles.</p>
-
-                <p>Nos iba bien. Pero en Puerto Ayacucho hay muchos problemas de transporte. Circulan pocos buses y escasea el combustible. Para llegar temprano a la radio, teníamos que pagar mototaxis de nuestro bolsillo. Después vino un desafío más grande: aparecieron diferencias editoriales con el director de la radio, porque, al parecer, no entendía que el espacio no le pertenecía, que el nuestro no era un proyecto de la emisora, sino un espacio independiente. Por todo ello, acordamos hacer un ajuste en el horario y mudarnos de dial.</p>
-            
-                <p>Hicimos la propuesta en la emisora Raudal Estéreo, que forma parte del Vicariato apostólico de Puerto Ayacucho y pertenece a Fe y Alegría. Allí ya tenían un espacio informativo en la mañana, por lo cual solicitamos que nos ubicaran más bien en la tarde, a las 5:00, como productores independientes. Luego de varias reuniones, llenas de cordialidad, nos admitieron.</p>
-            
-                <p>Arrancamos con el programa de 5:00 a 6:30 de la tarde.</p>
-
-                <div class="container-regular-img">
-                    <img src="./imgs/sample.jpg" class="regular-img">
-                    <p class="img-legend">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                </div>
-
-                <p>Cuando sentíamos que el viento por fin estaba a nuestro favor, todo cambió. Para nosotros y para el mundo. En marzo de 2020 decretaron la pandemia de covid-19. Ante esa circunstancia, se nos hacía difícil mantener el ritmo que habíamos mantenido. No podíamos salir al aire a las 5:00 de la tarde porque no teníamos transporte para volver a nuestras casas, y porque había muchas restricciones de movilidad por el confinamiento. Por ello, volvimos a cambiar de horario. Ahora iríamos al aire de 3:00 a 4:30 de la tarde. Y aprovechamos para modificar nuestra identidad: pasamos de llamarnos Radar Informativo a Radar de Amazonas, que es como ya nos estaban conociendo dentro y fuera del estado.</p>
-
-                <p>Cuando Kisme tenía su vehículo en buen estado, me pasaba buscando. Cuando no, caminaba tres o cuatro cuadras, y llegaba hasta un puesto de bomberos o policías a quienes les pedía que me ayudaran a llegar. Así, gracias a bomberos o policías, podíamos transmitir lo que estaba ocurriendo. No podíamos parar porque en momentos como esos –convulsos, de incertidumbre– la sociedad necesita información. En Amazonas la gente se nutre de la radio. La única restricción era que hacíamos las entrevistas vía telefónica, y en cabina solo estábamos Kisme (que además hacía de operador) y yo.</p>
-            
-                <p class="highlight">No podíamos parar porque en momentos como esos –convulsos, de incertidumbre– la sociedad necesita información.</p>
-            
-                <p>Actualmente, somos un equipo de 13 personas, 6 de las cuales tenemos la mayor responsabilidad del programa. Los demás son colaboradores y voluntarios: hay periodistas deportivos, otros que abordan el tema medioambiental, unos cuantos que cubren sucesos. Rentamos una oficina, que pagamos con los ingresos de nuestros otros trabajos. Allí funciona nuestra sala de redacción. Hay editores, audiovisualistas, diseñadores. La pauta la va marcando la dinámica noticiosa del día o de la semana. Nos interesa llevar información periodística de distintos temas: Derechos Humanos, comunidad, salud, política, economía, mujeres, comunidades indígenas.
-                </p>
-
-                <p>Para sacar adelante este proyecto, todos tenemos otros trabajos: algunos forman parte de la administración pública, otros colaboran con distintos medios, y otros trabajan con organizaciones de la sociedad civil. Tenemos gente que forma parte de Una Ventana a la Libertad, Ipys-Venezuela, Griam, Kapé Kapé, el Observatorio Venezolano de Violencia. Esto creo que es bueno...</p>
-
-                <div class="box-profile sucre">
-                    <p><b>CAROLINA AZAVACHE</b> nació en Amazonas y es descendiente del pueblo indígena Baré. Se formó como periodista. A lo largo de su carrera ha cubierto diferentes fuentes informativas. Actualmente, trabaja como investigadora para distintas organizaciones sociales. Es cofundadora, junto a otros periodistas, de Radar de Amazonas.</p>
-                </div>
-
-            </div>
-
-        </section>
-        </div>
-    </div>
-
-
-    <!-- Show and hide fixed menu-->
-    <!-- TO DO -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            
-            const offset = 0.11;
-
-            const menu = document.getElementById('secondary-fixed-menu');
-
-            // Initialize Scrollama
-            const scroller = scrollama();
-
-            // Setup Scrollama event handlers
-            scroller
-                .setup({
-                    step: '#show-menu',
-                    offset: 0.11,
-                    debug: false,
-                })
-                .onStepEnter(() => {
-                    menu.classList.add('visible');
-                    menu.classList.remove('hidden');
-                })
-                .onStepExit(() => {
-                    menu.classList.add('hidden');
-                    menu.classList.remove('visible');
-                });
-
-            // Resize event for Scrollama
-            window.addEventListener('resize', scroller.resize);
-        });
-    </script>
     </body>
 </html>
