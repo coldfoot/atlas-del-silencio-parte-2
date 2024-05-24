@@ -57,6 +57,11 @@ p {
     color: var(--color-black);
 }
 
+a:link, 
+a:visited {
+    color: inherit; /* Keeps the color same as parent element */
+    text-decoration: none; /* Optional: remove underline */
+}
 
 .hidden {
     display: none !important;
@@ -88,13 +93,15 @@ p {
 
 .big-opener-container {
     display: block;
-    height: 100vh;
-    background-color: var(--color-ipys);
+    height: 100vh;http://127.0.0.1:5500/imgs/mapa-venezuela-home.png
+}
+
+img.big-opener {
+    width: 100%;
 }
 
 @media screen and (max-width: 1000px) {
     .big-opener-container {
-        background-color: var(--color-ipys);
         display: block;
         height: 50vh;
     }
@@ -217,6 +224,10 @@ p {
     }
 }
 
+.story-link-container a.text-elements:hover {
+    opacity: 0.5;
+}
+
 .story-link-container {
     min-height: 50vh;
     display: flex;
@@ -232,7 +243,7 @@ p {
 
 .story-link-container h3 {
     margin-bottom: 5px;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .story-link-container h1 {
@@ -261,9 +272,9 @@ p {
     display: inline-block; /* Ensures background fits the text */
 }
 
-.story-link-container .text-elements {
+/* .story-link-container .text-elements {
     width: 50%;
-}
+} */
 
 .story-link-container .logo-holder {
     display: flex;
