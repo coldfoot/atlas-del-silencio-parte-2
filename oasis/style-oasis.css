@@ -374,6 +374,11 @@ p {
 .intro .text-container p {
     text-align: center;
     font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.intro p.author {
+    font-size: 20px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -488,6 +493,7 @@ section.intro .text-container {
 
 .section-menu-subdivision h1 {
     color: var(--color-black);
+    margin-top: 10%;
 }
 
 .section-menu-subdivision h2, 
@@ -498,6 +504,11 @@ section.intro .text-container {
     margin-left: 20px;
     margin-top: 5px;
 }
+
+.section-menu-subdivision h2 {
+    margin-top: 30px;
+}
+
 
 .section-menu-subdivision h3, 
 .section-menu-subdivision h4 {
@@ -640,7 +651,7 @@ section.stories .subhead {
 }
 
 section.stories p {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 section.stories p.img-legend {
@@ -701,9 +712,13 @@ section.stories .map-box img.map {
 }
 
 section.stories p.highlight {
-    font-size: 42px;
+    font-size:36px;
     text-align: center;
     font-style: italic;
+}
+
+img.aspa, img.linha {
+    width: 100%;
 }
 
 @media screen and (max-width: 1000px) {
