@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    /* outline: 1px solid #f00 !important; */
+
 }
 
 :root {
@@ -365,7 +367,6 @@ p {
     padding: 10%;
     padding-top: 50px;
     padding-bottom: 0%;
-    padding-right: 5%;
     position: relative;
 }
 
@@ -761,12 +762,10 @@ img.aspa, img.linha {
 section.stories .box-profile {
     margin-top: 100px;
     position: relative;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: -12%; /* Negative margin to offset the text-container's padding */
-    padding-left: 12%;
-    margin-right: -8%;
-    padding-right: 8%;
+    padding: 2% 10% 2% 10%;
+    padding
+    width: 100%;
+    /* margin-right: -6%; */
 }
 
 /* Sections – Amazonas */
