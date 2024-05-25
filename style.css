@@ -73,43 +73,87 @@ a:visited {
     opacity: 1;
 }
 
-/* Opening screen */
+/* Menu */
  
 .menu-container {
+    display: flex;
     position: relative;
     background-color: #fff;
-    top: 0;
-    left: 0;
-    right: 0;
     z-index: 10;
     margin: 10px;
-    padding: 10px;
     background-color: transparent;
+    gap: 20px;
+    padding: 0 2% 0 2%
 }
 
-.menu-container img {
-    margin-top: 20px;
-    margin-left: 20px;
-    width: 120px;
+.title-holder .outer-title {
+    text-align: center;
+
 }
 
-.big-opener-container {
-    display: block;
-    height: 100vh;http://127.0.0.1:5500/imgs/mapa-venezuela-home.png
+.menu-container h1.outer-title {
+    color: var(--color-ipys);
+    font-size: 40px;
 }
 
-img.big-opener {
+.logo-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    align-self: center;
+}
+
+img.logo {
+    width: 100px;
+    margin: 0;
+}
+
+/* Opening screen */
+.intro-container {
+    min-height: 99.9vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./imgs/mapa-venezuela-home.png");
+    background-size: cover;
 }
 
-@media screen and (max-width: 1000px) {
-    .big-opener-container {
-        display: block;
-        height: 50vh;
-    }
+.intro-container-inner {
+    width: 80%;
 }
 
+.intro-container .img-holder.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 
+.intro-container img.atlas-logo {
+    width: 70%;
+    max-width: 600px;
+}
+
+.intro-container .img-holder.dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;;
+}
+
+.lead-holder {
+    margin-bottom: 10px;
+    max-width: 800px;
+
+}
+
+.lead-holder p {
+    text-align: center;
+    font-size: 24px;
+}
 
 /* Shortcut to map */
 @media screen and (min-width: 1000px) {
@@ -221,9 +265,9 @@ img.big-opener {
         width: 100%;
     }
     
-    .menu-container.second {
+    /* .menu-container.second {
         display: none;
-    }
+    } */
 }
 
 .story-link-container a.text-elements:hover {
@@ -231,10 +275,9 @@ img.big-opener {
 }
 
 .story-link-container {
-    min-height: 50vh;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding-left: 10%;
     padding-right: 10%;
@@ -278,17 +321,6 @@ img.big-opener {
     width: 50%;
 } */
 
-.story-link-container .logo-holder {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    align-self: center;
-}
-
-.logo-holder img.logo {
-    width: 200px;
-}
 
 .divider {
     border: none; /* Remove default border */
